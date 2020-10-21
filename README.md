@@ -1,6 +1,6 @@
-# terraform-module-template
+# route53-zone
 
-[![Build Status](https://drone.techservices.illinois.edu/api/badges/techservicesillinois/terraform-module-template/status.svg)](https://drone.techservices.illinois.edu/techservicesillinois/terraform-module-template)
+[![Terraform actions status](https://github.com/techservicesillinois/terraform-aws-route53-zone/workflows/terraform/badge.svg)](https://github.com/techservicesillinois/terraform-aws-route53-zone/actions)
 
 <!--
 # PUT MODULE NAME HERE (drop the terraform-aws)
