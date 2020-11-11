@@ -38,3 +38,9 @@ variable "parent_ttl" {
   description = "The TTL of the record created in the parent hosted zone"
   default     = 30
 }
+
+variable "soa" {
+  description = "Map of attributes for a Start of Authority (SOA) record if being explicitly managed"
+  type        = map(any)
+  default     = {}
+}
