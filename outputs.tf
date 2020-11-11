@@ -6,6 +6,10 @@ output "name_servers" {
   value = aws_route53_zone.default.name_servers
 }
 
+output "soa_record" {
+  value = local.soa_record
+}
+
 output "vpc_id" {
   value = element(concat(data.aws_vpc.selected.*.id, [""]), 0)
 }
