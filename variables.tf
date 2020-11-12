@@ -36,7 +36,7 @@ variable "parent_tags" {
 
 variable "parent_ttl" {
   description = "The TTL of the record created in the parent hosted zone"
-  default     = 30
+  default     = 60
 }
 
 variable "soa" {
